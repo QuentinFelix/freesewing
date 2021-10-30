@@ -40,6 +40,7 @@ let strap = points.edgeTop.dy(points.top)
 points.tipRight = points.edgeTop.translate(strap / 2, strap / 2)
 points.tipRightTop = new Point(points.tipRight.x, points.edgeTop.y)
 points.tipRightBottom = new Point(points.tipRight.x, points.top.y)
+points.snapLeft = new Point(points.top.x, points.tipRight.y)
 
 macro("round", {
   from: points.edgeTop,
