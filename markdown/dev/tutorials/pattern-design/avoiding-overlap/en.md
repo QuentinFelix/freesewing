@@ -26,7 +26,8 @@ let rotateThese = [
   "tipRightBottomEnd",
   "tipRightBottom",
   "top",
-  "topCp2"
+  "topCp2",
+  "snapLeft"
 ]
 ```
 
