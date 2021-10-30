@@ -53,7 +53,6 @@ let {
   measurements,
   options,
   macro,
-  complete,
   snippets,
   Snippet
 } = part.shorthand()
